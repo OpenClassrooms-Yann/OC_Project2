@@ -23,7 +23,7 @@ h2 {
 h3 {
   font-size: 110%;
   font-weight: 900;
-  word-wrap: keep-all;
+  word-break: keep-all;
 }
 
 h4 {
@@ -309,22 +309,23 @@ main {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .accomodation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 250px;
-  margin: 10px;
+  margin: 10px 10px 20px;
   overflow: hidden;
   border: solid 5px #ffff;
   border-radius: 20px;
-  box-shadow: inset 3px 3px 20px 0px rgb(0 0 0 / 20%),
-    0px 2px 20px 0px rgb(0 0 0 / 19%);
+  box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 30%);
+  background-color: #fff;
 }
 
 .accomodation img {
   width: auto;
-  height: 100px;
+  height: 120px;
   object-fit: cover;
 }
 
@@ -332,8 +333,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 15px 0 2% 5%;
-  background-color: #ffff;
+  padding: 5px 10px 5px;
 }
 
 .text :nth-child(n) {
@@ -385,8 +385,8 @@ aside {
   border: solid 5px #fff;
   border-radius: 20px;
   margin: 4% 0;
-  box-shadow: inset 3px 3px 20px 0px rgb(0 0 0 / 20%),
-    0px 2px 20px 0px rgb(0 0 0 / 19%);
+  box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 30%);
+  background-color: #fff;
 }
 
 .favorite-image {
@@ -401,7 +401,6 @@ aside {
   justify-content: space-between;
   padding: 10px 20px;
   width: 80%;
-  background-color: #fff;
 }
 
 .fav-txt :nth-child(n) {
@@ -426,8 +425,7 @@ aside {
   flex-direction: column;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: inset 3px 3px 20px 0px rgb(0 0 0 / 20%),
-    0px 2px 20px 0px rgb(0 0 0 / 19%);
+  box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 30%);
 }
 
 .activity-img {
@@ -505,8 +503,9 @@ footer {
 
 .footer-info ul {
   font-size: 110%;
-  margin-bottom: 20px 0;
+  margin-bottom: 20px;
 }
+
 .footer-info li {
   padding: 2% 0;
 }
