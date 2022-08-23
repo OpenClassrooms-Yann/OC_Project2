@@ -497,7 +497,7 @@ footer {
   display: flex;
   width: 80%;
   flex-direction: column;
-  padding: 0 5% 0 0;
+  padding-right: 6%;
 }
 
 .footer-info h3 {
@@ -566,6 +566,7 @@ footer {
   .activities {
     flex-wrap: wrap;
     margin-bottom: 5%;
+    gap: 0;
   }
   .double-height, .activity-container {
     width: 40%;
@@ -642,9 +643,11 @@ footer {
     padding: 0 7.5%;
   }
   .activities, .half-activity {
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    gap: 0;
+    margin-bottom: 0;
   }
   .activity-container {
     display: flex;
@@ -656,9 +659,8 @@ footer {
   }
   .activity {
     height: 190px;
-    width: 100%;
-    margin-bottom: 5%;
-    margin: 20px 7.5%;
+    /* margin-bottom: 5%; */
+    margin: 0 7.5% 5%;
   }
   .double-height, .activity-container {
     width: 100%;
